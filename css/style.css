@@ -82,6 +82,8 @@ header .auth-nav {
     color: var(--acent-color)
 }
 
+
+
 /* ------------Навігація по сайті------------*/
 
 
@@ -165,6 +167,10 @@ header .auth-nav {
 {
     list-style: none;
 }
+/* ------------Декоративні елементи------------*/
+
+
+
 /* ------------Герой------------*/
 
  .section-hero {
@@ -439,8 +445,7 @@ margin-right: 10px;
 }
 .team-soc-link  {
     width: 100%;
-    height: 100%;
-      background-color: var(--acent-color);  
+    height: 100%;  
     display: flex;
     border-radius: 50%;
     justify-content: center;
