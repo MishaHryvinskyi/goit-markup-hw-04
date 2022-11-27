@@ -171,11 +171,13 @@ header .auth-nav {
 }
 
 .icon-mail {
+    
     margin-right: 10px;
     
 
 }
 .header-link {
+    display: flex;
     margin-right: 10px;
     align-items: center;
     justify-content: center;
