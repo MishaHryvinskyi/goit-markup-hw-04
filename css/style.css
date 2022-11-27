@@ -452,7 +452,6 @@ background-color: var(--primary-fon-color);
 .team-item-socialm {
  width: 44px;
  height: 44px;
- border-radius: 50%;
  margin-bottom: 30px;
  
 }
@@ -469,7 +468,9 @@ margin-right: 10px;
     background-color: #2196F3;
 
 }
-
+.team-soc-icon {
+    fill: currentColor;
+}
 
 
 /* ------------Підвал------------*/
