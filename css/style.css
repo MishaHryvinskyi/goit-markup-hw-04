@@ -10,6 +10,7 @@
     --header-border-color:#ECECEC;
     --color-cards-border: #EEEEEE;
     --background-color-hero: #C4C4C4;
+    --border-clients-color: #AFB1B8;
     
 
 
@@ -163,29 +164,30 @@ header .auth-nav {
 .buttons-filter,
 .photos-list,
 .list-work,
-.site-nav-footer
+.site-nav-footer,
+.list-client
 {
     list-style: none;
 }
 
 .icon-mail {
     margin-right: 10px;
-    background-size: cover;
     fill:#757575;
     display: inline-flex;
-    background-size: cover;
+
 
 }
-.icon-tell {
+.header-link {
     margin-right: 10px;
-    background-size: cover;
-    fill:#757575;
-    
-    background-size: cover;
+    align-items: center;
+    justify-content: center;
+
 }
 /* ------------Декоративні елементи------------*/
 
-
+.icon-tell:hover {
+    fill: var(--acent-color);
+}
 
 /* ------------Герой------------*/
 
@@ -452,7 +454,7 @@ background-color: var(--primary-fon-color);
 .team-item-socialm {
  width: 44px;
  height: 44px;
- margin-bottom: 30px;
+ padding-bottom: 30px;
  
 }
 .team-item-socialm:not(:last-child) {
@@ -465,13 +467,52 @@ margin-right: 10px;
     border-radius: 50%;
     justify-content: center;
     align-items: center;
-    background-color: #2196F3;
-
-}
-.team-soc-icon {
-    fill: currentColor;
+    
 }
 
+/* ------------Наші клієнти------------*/
+.section-clients {
+    background-color: var(--work-fon-color);
+}
+.list-client {
+    display: flex;
+    justify-content: center;
+
+}
+.client-header {
+    
+    font-size: 36px;
+    line-height: 1.16;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.company {
+    width: 170px;
+    height: 92px;
+    border: 1px solid var(--border-clients-color);
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+}
+.company:not(:last-child) {
+    margin-right: 30px;
+}
+.icon-clients {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+    width: 41px;
+    height: 46px;
+    
+}
+.company-one {
+    padding: 16px 32px;
+    
+}
 
 /* ------------Підвал------------*/
 
