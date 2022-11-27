@@ -469,6 +469,7 @@ margin-right: 10px;
     align-items: center;
     
 }
+.team-soc-link:focus 
 
 /* ------------Наші клієнти------------*/
 .section-clients {
@@ -483,7 +484,7 @@ margin-right: 10px;
     
     font-size: 36px;
     line-height: 1.16;
-    
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
