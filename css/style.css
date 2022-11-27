@@ -11,6 +11,7 @@
     --color-cards-border: #EEEEEE;
     --background-color-hero: #C4C4C4;
     --border-clients-color: #AFB1B8;
+    --bacjground-color-footer-lincs: rgba(255, 255, 255, 0.1);
     
 
 
@@ -165,17 +166,35 @@ header .auth-nav {
 .photos-list,
 .list-work,
 .site-nav-footer,
-.list-client
+.list-client,
+.footer-list
 {
     list-style: none;
 }
 
-.icon-mail {
-    
+.icon-nav1,
+.icon-nav2 {
     margin-right: 10px;
-    
-
 }
+
+.icon-nav1:hover,
+.icon-nav2:focus {
+    color: var(--acent-color);
+    fill: currentColor;
+}
+
+.icon-nav1 {
+    width: 16px;
+    height: 12px;
+    fill: var(--secondary-texy-color);
+}
+.icon-nav2 {
+    width: 10px;
+    height: 16px;
+    fill: var(--secondary-texy-color);
+}
+
+
 .header-link {
     display: flex;
     margin-right: 10px;
@@ -185,8 +204,15 @@ header .auth-nav {
 }
 /* ------------Декоративні елементи------------*/
 
-.icon-tell:hover {
-    fill: var(--acent-color);
+.icon-nav1,
+.icon-nav2 {
+    color: var(--secondary-texy-color);
+    fill: var(--secondary-texy-color);
+}
+
+.nav-icon:hover,
+.nav-icon:focus {
+    color: var(--acent-color);
 }
 
 /* ------------Герой------------*/
@@ -568,6 +594,8 @@ margin-right: 10px;
 
 .address {
     font-style: normal;
+    width: 231px;
+    margin-right: 70px;
 }
 .address-item {
     color: var(--primary-fon-color);
@@ -581,6 +609,57 @@ margin-right: 10px;
 .address-items:hover,
 .address-items:focus {
     color: var(--acent-color);
+}
+
+.footer-title {
+    color:var(--secondary-fon-col);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.footer-soc-lincs {
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    width: 44px;
+    height: 44px;
+    background-color:var(--bacjground-color-footer-lincs);
+    border-radius: 50%;
+}
+
+.footer-soc-lincs:focus,
+.footer-soc-lincs:hover {
+    background-color: var(--acent-color);
+}
+
+.footer-soc-lincs:not(:last-child) {
+    margin-right: 10px;
+    }
+
+.footer-icon-linc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-div {
+    display: flex;
+    align-items: center;
+}
+
+.logo-footer {
+    margin-bottom: 20px;
+}
+
+.div-fot {
+    margin-bottom: 30px;
+}
+
+.icons-svg {
+    fill:var(--primary-fon-color);
 }
 
 /* --------Портфоліо--------- */
