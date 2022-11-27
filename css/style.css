@@ -167,6 +167,22 @@ header .auth-nav {
 {
     list-style: none;
 }
+
+.icon-mail {
+    margin-right: 10px;
+    background-size: cover;
+    fill:#757575;
+    display: inline-flex;
+    background-size: cover;
+
+}
+.icon-tell {
+    margin-right: 10px;
+    background-size: cover;
+    fill:#757575;
+    
+    background-size: cover;
+}
 /* ------------Декоративні елементи------------*/
 
 
@@ -450,8 +466,10 @@ margin-right: 10px;
     border-radius: 50%;
     justify-content: center;
     align-items: center;
+    background-color: #2196F3;
+
 }
-  
+
 
 
 /* ------------Підвал------------*/
