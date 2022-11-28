@@ -12,7 +12,7 @@
     --background-color-hero: #C4C4C4;
     --border-clients-color: #AFB1B8;
     --bacjground-color-footer-lincs: rgba(255, 255, 255, 0.1);
-    
+    --primery-icon-color:#AFB1B8;
 
 
     --primary-padding-bottom: 10px;
@@ -149,6 +149,7 @@ header .auth-nav {
 .auth-nav .header-link:focus 
 {
     color: var(--acent-color);
+    fill: var(--acent-color);
 }
 
 .site-nav .header-link.current {
@@ -173,14 +174,13 @@ header .auth-nav {
 }
 
 .icon-nav1,
-.icon-nav2 {
+.icon-mail {
     margin-right: 10px;
 }
 
 .icon-nav1:hover,
 .icon-nav2:focus {
-    color: var(--acent-color);
-    fill: currentColor;
+ fill: var(--acent-color);
 }
 
 .icon-nav1 {
@@ -202,18 +202,19 @@ header .auth-nav {
     justify-content: center;
 
 }
+
+
+.header-link:focus,
+.header-link:hover
+ {
+    fill: var(--acent-color);
+}
+
 /* ------------Декоративні елементи------------*/
 
-.icon-nav1,
-.icon-nav2 {
-    color: var(--secondary-texy-color);
-    fill: var(--secondary-texy-color);
-}
 
-.nav-icon:hover,
-.nav-icon:focus {
-    color: var(--acent-color);
-}
+
+
 
 /* ------------Герой------------*/
 
@@ -516,6 +517,14 @@ margin-right: 10px;
     background-color: var(--acent-color);
 } 
 
+.team-soc-link:hover .team-soc-icon {
+    fill: var(--primary-fon-color);
+}
+
+.team-soc-icon {
+    fill: var(--primery-icon-color);
+}
+
 /* ------------Наші клієнти------------*/
 .section-clients {
     background-color: var(--work-fon-color);
@@ -543,6 +552,17 @@ margin-right: 10px;
     align-items: center;
     justify-content: center;
 }
+
+.company:focus,
+.company:hover {
+    border: 1px solid var(--acent-color);
+}
+
+.icon-clients:focus,
+.icon-clients:hover {
+    fill: var(--acent-color);
+}
+    
 .company:not(:last-child) {
     margin-right: 30px;
 }
@@ -552,11 +572,14 @@ margin-right: 10px;
     justify-content: center;
     padding: auto;
     width: 106px;
-    height: 60px;
-    
+    height: 60px;  
 }
 
-.company-two {
+.icon-clients {
+    fill: var(--primery-icon-color);
+}
+
+.company {
     display: inline-flex;
     padding: 16px 32px;
     align-items: center;
@@ -630,14 +653,21 @@ margin-right: 10px;
     align-content: center;
     width: 44px;
     height: 44px;
+    fill: var(--primary-fon-color);
     background-color:var(--bacjground-color-footer-lincs);
     border-radius: 50%;
+
+}
+
+.footer-icon-linc {
+    fill: var(--primary-fon-color);
 }
 
 .footer-soc-lincs:focus,
 .footer-soc-lincs:hover {
     background-color: var(--acent-color);
 }
+
 
 .footer-soc-lincs:not(:last-child) {
     margin-right: 10px;
@@ -657,7 +687,7 @@ margin-right: 10px;
     margin-bottom: 20px;
 }
 
-.div-fot {
+.div-fot .fot-portfolio {
     margin-bottom: 30px;
 }
 
