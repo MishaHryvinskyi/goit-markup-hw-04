@@ -210,6 +210,10 @@ header .auth-nav {
     fill: var(--acent-color);
 }
 
+.header-link {
+     fill: var(--secondary-texy-color); 
+}
+
 /* ------------Декоративні елементи------------*/
 
 
