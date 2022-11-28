@@ -526,9 +526,11 @@ margin-right: 10px;
 }
 
 /* ------------Наші клієнти------------*/
-.section-clients {
-    background-color: var(--work-fon-color);
+
+.clients-div {
+    background-color: var(--primary-fon-color);
 }
+
 .list-client {
     display: flex;
     justify-content: center;
