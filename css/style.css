@@ -496,7 +496,7 @@ background-color: var(--primary-fon-color);
 .team-item-socialm {
  width: 44px;
  height: 44px;
- padding-bottom: 30px;
+ margin-bottom: 30px;
  
 }
 .team-item-socialm:not(:last-child) {
@@ -509,9 +509,12 @@ margin-right: 10px;
     border-radius: 50%;
     justify-content: center;
     align-items: center;
-    
+
 }
-.team-soc-link:focus 
+.team-soc-link:focus,
+.team-soc-link:hover {
+    background-color: var(--acent-color);
+} 
 
 /* ------------Наші клієнти------------*/
 .section-clients {
@@ -658,9 +661,7 @@ margin-right: 10px;
     margin-bottom: 30px;
 }
 
-.icons-svg {
-    fill:var(--primary-fon-color);
-}
+
 
 /* --------Портфоліо--------- */
 .pic-title {
