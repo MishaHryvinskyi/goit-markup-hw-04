@@ -657,7 +657,7 @@ margin-right: 10px;
 .address {
     font-style: normal;
     width: 231px;
-    margin-right: 70px;
+    
 }
 .address-item {
     color: var(--primary-fon-color);
@@ -673,7 +673,7 @@ margin-right: 10px;
     color: var(--acent-color);
 }
 
-.footer-title {
+.footer-paragraph {
     color:var(--secondary-fon-col);
     font-weight: 700;
     font-size: 14px;
@@ -700,7 +700,7 @@ margin-right: 10px;
 }
 
 
-.footer-soc-lincs:hover {
+.footer-icon-linc:hover {
     background-color: var(--acent-color);
 }
 .footer-icon-linc:focus {
@@ -727,6 +727,7 @@ margin-right: 10px;
 
 .footer-item {
     align-items: baseline;
+    display: flex;
 }
 
 .logo-footer {
@@ -744,11 +745,10 @@ margin-right: 10px;
 
 .adress-div {
     display: inline-block;
+    margin-right: 70px;
 }
 
-.footer-item {
-    display: flex;
-}
+
 
 
 
