@@ -823,8 +823,7 @@ margin-right: 10px;
 .buttons-filters {
     display: flex;
     justify-content:center;
-    margin-bottom: 50px;
-   
+    margin-bottom: 50px;  
 }
 .buttons-filter:not(:first-child) {
     margin-left: 8px;
@@ -854,7 +853,6 @@ margin-right: 10px;
     height: 100%;
     text-decoration: none;
     display: inline-block;
-
 }
 
 
